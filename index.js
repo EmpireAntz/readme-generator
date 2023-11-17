@@ -1,7 +1,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 
-const writeMD = ({project, description, installation, useage, contribute, test}) => 
+const writeMD = ({project, description, installation, useage, contribute, test, license, github, email}) => 
     
 `# ${project}
 
@@ -32,7 +32,16 @@ ${contribute}
 
 ## Tests
 
-${test}`
+${test}
+
+## License
+
+${license}
+
+## Questions 
+
+For any questions, please reach out to me at [${email}](mailto:${email}) or visit my [GitHub Profile](https://github.com/${github}).`
+
 
 inquirer.prompt([
     {
@@ -53,7 +62,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'useage',
-        message: 'Provide instructions and examples for use.'
+        message: 'Please provide instructions and examples for use.'
     },
     {
         type: 'input',
@@ -64,8 +73,24 @@ inquirer.prompt([
         type: 'input',
         name: 'test',
         message: 'Please type your test instructions here',
-    }
-
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please choose a license',
+        choices: ['MIT', 'ISC', 'Open Software License']
+    },
+    {
+       type: 'input',
+       name: 'github',
+       message: 'What is your Github Usernname?',
+    },
+    {
+        type: 'input',
+        name: 'email', 
+        message: 'What is your email address?',
+    },
+  
 ])
 
 .then((resp) => {
