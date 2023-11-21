@@ -1,4 +1,4 @@
-# Readme Generator ![License: OSL 3.0](https://img.shields.io/badge/License-OSL_3.0-blue.svg)
+# Readme Generator
 
 ## Description 
 
