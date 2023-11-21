@@ -6,12 +6,17 @@ This CLI application is designed make it easier for develoeprs to quickly create
 
 ## Table of Contents
 
+- [Walkthrough](#walkthrough)
 - [Installation](#installation)
 - [Useage](#useage)
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
+
+## Walkthrough
+
+[Click me to watch walkthrough video](https://drive.google.com/file/d/1XHtphLIldmu_dPSzG-yPvxiq7BhOr5yx/view)
                 
 ## Installation
 
@@ -36,7 +41,3 @@ This project is licensed under the Open Software License 3.0 License.
 ## Questions 
 
 For any questions, please reach out to me at [thebigboognish@gmail.com](mailto:thebigboognish@gmail.com) or visit my [GitHub Profile](https://github.com/EmpireAntz).
-
-## Walkthrough
-
-[Click me to watch walkthrough video](https://drive.google.com/file/d/1XHtphLIldmu_dPSzG-yPvxiq7BhOr5yx/view)
