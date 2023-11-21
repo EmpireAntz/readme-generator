@@ -2,7 +2,7 @@
 
 ## Description 
 
-A CLI application that will write a readme file by prompt
+This CLI application is designed make it easier for develoeprs to quickly create a README for their projects. This application works by presenting prompts in the command line that the user will respond to and then using that information to generate a README.
 
 ## Table of Contents
 
@@ -10,24 +10,24 @@ A CLI application that will write a readme file by prompt
 - [Useage](#useage)
 - [Contribute](#contribute)
 - [Tests](#tests)
-- [Credits](#credits)
 - [License](#license)
+- [Questions](#questions)
                 
 ## Installation
 
-clone repo, download dependencies, run node index.js and follow the prompts
+To get started, clone the repository to your local machine. Ensure that you have Node.js installed. Once cloned, navigate to the project directory and install all required dependencies by running `npm install`. After the dependencies are installed, start the application by typing `node index.js` in your command line, then follow the prompts.
 
 ## Useage
 
-To use this, a series of prompts will be presented in the console, when answered, the provided information will be written to a readme in the typical readme format.
+Using this application is pretty straightforward. Once started, a series of prompts will be presented in the console. Answering these prompts will provide the application with the information necessary to complete your README. Upon completion,a README file will be created or written to in the typical markdown structure.
 
 ## Contribute
 
-To contribute please contact my by email or github
+Contributions to enhance the functionality or efficiency of this application are warmly welcomed. If you're interested in contributing, please fork the repository and submit a pull request with your proposed changes. Make sure to include a detailed description of your modifications and the benefits they bring!
 
 ## Tests
 
-No tests to run at this point
+Currently there are no tests for this application. However, you can manually test the functionality by running the application and verifying that the generated README aligns with the provided input
 
 ## License
 
