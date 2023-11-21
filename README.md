@@ -15,7 +15,7 @@ This CLI application is designed make it easier for develoeprs to quickly create
                 
 ## Installation
 
-To get started, clone the repository to your local machine. Ensure that you have Node.js installed. Once cloned, navigate to the project directory and install all required dependencies by running `npm install`. After the dependencies are installed, start the application by typing `node index.js` in your command line, then follow the prompts.
+To get started, clone the repository to your local machine. Ensure that you have Node.js installed. Once cloned, navigate to the project directory and install all required dependencies by running npm install. After the dependencies are installed, start the application by typing node index.js in your command line, then follow the prompts.
 
 ## Useage
 
@@ -36,3 +36,7 @@ This project is licensed under the Open Software License 3.0 License.
 ## Questions 
 
 For any questions, please reach out to me at [thebigboognish@gmail.com](mailto:thebigboognish@gmail.com) or visit my [GitHub Profile](https://github.com/EmpireAntz).
+
+## Walkthrough
+
+[Click me to watch walkthrough video](https://drive.google.com/file/d/1XHtphLIldmu_dPSzG-yPvxiq7BhOr5yx/view)
